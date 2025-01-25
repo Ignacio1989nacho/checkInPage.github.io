@@ -2,7 +2,7 @@
   "name": "web-control-de-turno-2.0",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://Ignacio1989nacho.github.io/checkInPage/build",
+  "homepage": "https://Ignacio1989nacho.github.io/checkInPage/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
