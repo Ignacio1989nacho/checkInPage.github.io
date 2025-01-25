@@ -1,0 +1,24 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* O la anchura deseada */
+    max-width: 640px;
+    /* Tamaño máximo del contenedor */
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.overlay-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.image-filter{
+
+    filter: drop-shadow(2px 2px 20px cyan);
+
+}

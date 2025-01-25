@@ -1,0 +1,10 @@
+.btn {
+    transition: transform 0.1s ease-in-out;
+    /* Transición suave */
+}
+
+.btn:active {
+    transform: scale(0.95);
+    /* Escala ligeramente el botón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Añade una sombra para el efecto de profundidad */}

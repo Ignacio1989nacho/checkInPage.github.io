@@ -1,0 +1,101 @@
+/*bg-body-tertiary en <div class="album py-5 ">*/
+.instructions {
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.instructions ul {
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 5px}
+
+.info-container {
+    padding: 20px;
+    background-color: white;
+    /* Azul oscuro, similar al Grupo L */
+    color: #ffffff;
+    /* Blanco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.lead {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text-body-secondary {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ffffff;
+    /* Blanco */
+}
+
+.titulo-container {
+    
+    background-color: #fff005f2;
+    /* Azul oscuro del Grupo L */
+    color: #0b0b0b;
+    /* Blanco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.titulo-dinamico {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    animation: color-change 2s infinite;
+}
+.color-fecha{
+    color: #fff005f2;
+
+}
+.arrow-up i {
+    font-size: 24px;
+    /* Ajusta el tamaño según prefieras */
+    color: rgb(255, 251, 2);
+    /* Cambia el color a negro */
+    width: 50px;
+    /* Ajusta el ancho según prefieras */
+    height: 50px;
+    /* Ajusta la altura según prefieras */
+}
+
+.image-filter-titulo {
+
+    filter: drop-shadow(2px 2px 20px rgb(255, 251, 2));
+
+}
+.menos-padding-booton{
+    padding-bottom: 1rem !important;
+}
+
+
+@keyframes color-change {
+    0% {
+        color: #ffffff;
+    }
+
+    50% {
+        color: #ffcc00;
+    }
+
+    /* Amarillo del Grupo L */
+    100% {
+        color: #ffffff;
+    }
+}
